@@ -1,10 +1,13 @@
-import org.junit.Assert;
 import org.junit.Test;
+
+import static org.junit.Assert.assertTrue;
 
 public class FizzBuzzTest {
 
   @Test
   public void should_fail() {
-    Assert.assertTrue(false);
+    assertTrue(false);
   }
+
+
 }
